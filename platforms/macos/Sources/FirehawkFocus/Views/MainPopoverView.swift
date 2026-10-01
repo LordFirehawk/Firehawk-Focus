@@ -1,9 +1,29 @@
 import SwiftUI
 
+final class TrayPresentation: ObservableObject {
+    @Published var isVisible = false
+}
+
+struct TrayContentView: View {
+    @ObservedObject var presentation: TrayPresentation
+    let engine: FocusEngine
+    var onClose: (() -> Void)?
+    @State private var activeTab: Int = 0
+
+    var body: some View {
+        Group {
+            if presentation.isVisible {
+                MainPopoverView(engine: engine, onClose: onClose, activeTab: $activeTab)
+            }
+        }
+        .frame(width: 360, height: 490)
+    }
+}
+
 struct MainPopoverView: View {
     @ObservedObject var engine: FocusEngine
     var onClose: (() -> Void)? = nil
-    @State private var activeTab: Int = 0
+    @Binding var activeTab: Int
 
     var body: some View {
         VStack(spacing: 0) {

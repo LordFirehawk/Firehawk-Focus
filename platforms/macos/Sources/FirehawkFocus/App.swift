@@ -43,10 +43,11 @@ final class TrayPanel: NSPanel {
 }
 
 @MainActor
-final class AppDelegate: NSObject, NSApplicationDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
     private let engine = FocusEngine.shared
     private var statusItem: NSStatusItem!
     private var trayPanel: TrayPanel?
+    private let trayPresentation = TrayPresentation()
     private var clickOutsideMonitor: Any?
     private var statusItemContent: StatusItemContent?
     private var cancellables = Set<AnyCancellable>()
@@ -102,8 +103,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         panel.backgroundColor = .clear
         panel.hasShadow = true
         panel.animationBehavior = .utilityWindow
+        panel.delegate = self
         panel.contentViewController = NSHostingController(
-            rootView: MainPopoverView(engine: engine, onClose: { [weak self] in
+            rootView: TrayContentView(presentation: trayPresentation, engine: engine, onClose: { [weak self] in
                 self?.closeTray()
             })
         )
@@ -178,6 +180,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         guard let panel = trayPanel else { return }
 
         if !panel.isVisible {
+            engine.setTrayVisible(true)
+            trayPresentation.isVisible = true
             // Lock position in place when opening
             let targetOrigin = calculateTrayOrigin(panelSize: panel.frame.size)
             panel.setFrameOrigin(targetOrigin)
@@ -191,7 +195,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     private func closeTray() {
         stopClickOutsideMonitor()
+        trayPresentation.isVisible = false
+        engine.setTrayVisible(false)
         trayPanel?.orderOut(nil)
+    }
+
+    func windowShouldClose(_ sender: NSWindow) -> Bool {
+        closeTray()
+        return false
     }
 
     private func calculateTrayOrigin(panelSize: NSSize) -> NSPoint {

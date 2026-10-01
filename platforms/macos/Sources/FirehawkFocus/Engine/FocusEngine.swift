@@ -37,6 +37,7 @@ public final class FocusEngine: ObservableObject {
     private var jsModel: JSValue!
     private var currentStateJS: JSValue!
     private var tickTimer: Timer?
+    private var isTrayVisible = false
     private var previousStatus: FocusStatus = .ready
 
     // MARK: - App Tracking State
@@ -49,7 +50,9 @@ public final class FocusEngine: ObservableObject {
 
     private var activePlayingSound: NSSound?
 
-    private let stateFileURL: URL = {
+    private let stateFileURL: URL
+
+    private static let defaultStateFileURL: URL = {
         let appSupport = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first!
         let dir = appSupport.appendingPathComponent("FirehawkFocus", isDirectory: true)
         try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
@@ -61,11 +64,18 @@ public final class FocusEngine: ObservableObject {
         return home.appendingPathComponent(".local/state/omarchy/firehawk-focus.json")
     }()
 
-    public init() {
+    public convenience init() {
+        self.init(stateFileURL: Self.defaultStateFileURL, requestsNotifications: true)
+    }
+
+    init(stateFileURL: URL, requestsNotifications: Bool) {
+        self.stateFileURL = stateFileURL
         setupJS()
         loadState()
         setupAppTracking()
-        requestNotificationPermission()
+        if requestsNotifications {
+            requestNotificationPermission()
+        }
         startTickTimer()
     }
 
@@ -341,18 +351,30 @@ public final class FocusEngine: ObservableObject {
 
     // MARK: - Timer Tick Loop
 
+    public func setTrayVisible(_ visible: Bool) {
+        guard isTrayVisible != visible else { return }
+        isTrayVisible = visible
+        if visible {
+            handleTick()
+        }
+        startTickTimer()
+    }
+
     private func startTickTimer() {
         tickTimer?.invalidate()
-        let timer = Timer(timeInterval: 0.25, repeats: true) { [weak self] _ in
+        let interval = isTrayVisible ? 0.25 : 1.0
+        let timer = Timer(timeInterval: interval, repeats: true) { [weak self] _ in
             Task { @MainActor [weak self] in
                 self?.handleTick()
             }
         }
+        timer.tolerance = interval * 0.1
         RunLoop.main.add(timer, forMode: .common)
         tickTimer = timer
     }
 
     private func handleTick() {
+        guard isTrayVisible || status == .running else { return }
         let nowMs = Date().timeIntervalSince1970 * 1000.0
 
         if status == .running && phase == .focus && config.trackApps {
@@ -383,7 +405,13 @@ public final class FocusEngine: ObservableObject {
             }
         }
 
-        refreshProperties(nowMs: nowMs)
+        if isTrayVisible {
+            refreshProperties(nowMs: nowMs)
+        } else if let remVal = jsModel.invokeMethod("remainingMs", withArguments: [currentStateJS!, nowMs]),
+                  let clockVal = jsModel.invokeMethod("formatClock", withArguments: [max(0, remVal.toDouble())]),
+                  let clock = clockVal.toString(), clock != clockText {
+            clockText = clock
+        }
     }
 
     // MARK: - Notifications and Sound Completion
