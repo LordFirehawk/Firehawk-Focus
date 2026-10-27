@@ -1,0 +1,189 @@
+[
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "symbol": "flame",
+    "category": "fire",
+    "sources": [
+      {
+        "title": "Campfire sound ambience",
+        "creator": "Glaneur de sons",
+        "url": "https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg",
+        "license": "CC-BY-3.0",
+        "raw": "wikimedia/campfire/download.mp3",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Campfire_sound_ambience.ogg/Campfire_sound_ambience.ogg.mp3",
+        "sha256": "2eaf286b43a82a5c1c9b10b672bca777c355815d44127a6449d3c4e609e008e3",
+        "licenseEvidence": "https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg",
+        "downloadDate": "2026-10-27"
+      }
+    ],
+    "start": 1,
+    "duration": 58,
+    "overlap": 2,
+    "edits": "Selected 1–59 s of the Commons MP3 transcode; 2 s equal-power overlap; RMS matched; catalog gainDb -4.5 makes this layer deliberately softer than Fireplace",
+    "gainDb": -4.5,
+    "montage": false,
+    "editors": [
+      "Firehawk Focus"
+    ],
+    "peakKneeRMS": 3
+  },
+  {
+    "id": "bonfire",
+    "name": "Big fire",
+    "symbol": "flame.fill",
+    "category": "fire",
+    "sources": [
+      {
+        "title": "WWS Bonfireburning",
+        "creator": "Kimmo Kestinen / Work With Sounds / Werstas",
+        "url": "https://commons.wikimedia.org/wiki/File:WWS_Bonfireburning.ogg",
+        "license": "CC-BY-4.0",
+        "raw": "wikimedia/bonfire/download.mp3",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/WWS_Bonfireburning.ogg/WWS_Bonfireburning.ogg.mp3",
+        "sha256": "598aff7365cd104a8cef3d7b56ca18e392ce85c5ca9434a8470adee6c63ff65c",
+        "licenseEvidence": "https://commons.wikimedia.org/wiki/File:WWS_Bonfireburning.ogg",
+        "downloadDate": "2026-10-27"
+      }
+    ],
+    "start": 1,
+    "duration": 49,
+    "overlap": 2,
+    "edits": "Selected 1–50 s of the Commons MP3 transcode of a real Midsummer bonfire at Lake Näsijärvi; 2 s equal-power overlap; RMS matched",
+    "gainDb": 0,
+    "montage": false,
+    "editors": [
+      "Firehawk Focus"
+    ],
+    "peakKneeRMS": 6
+  },
+  {
+    "id": "waterfall",
+    "name": "Waterfall",
+    "symbol": "water.waves",
+    "category": "water",
+    "sources": [
+      {
+        "title": "Large Waterfall",
+        "creator": "Daniel Simion",
+        "url": "https://soundbible.com/2201-Large-Waterfall.html",
+        "license": "CC-BY-3.0",
+        "raw": "soundbible/waterfall-large/download.wav",
+        "download": "https://soundbible.com/grab.php?id=2201&type=wav",
+        "sha256": "7c232b88cfcc4e30ee8fed184769e81585ed5988c8c3f7124289f2d1d19dafeb",
+        "licenseEvidence": "https://soundbible.com/2201-Large-Waterfall.html",
+        "downloadDate": "2026-10-27"
+      }
+    ],
+    "start": 1,
+    "duration": 42.5,
+    "overlap": 2,
+    "edits": "Selected 1–43.5 s of the source WAV; 2 s equal-power overlap; RMS matched",
+    "gainDb": 0,
+    "montage": false,
+    "editors": [
+      "Firehawk Focus"
+    ],
+    "peakKneeRMS": 6
+  },
+  {
+    "id": "thunder-close",
+    "name": "Close thunder",
+    "symbol": "cloud.bolt",
+    "category": "rain",
+    "sources": [
+      {
+        "title": "Elaborate Thunder",
+        "creator": "Mike Koenig",
+        "url": "https://soundbible.com/2005-Elaborate-Thunder.html",
+        "license": "CC-BY-3.0",
+        "raw": "soundbible/thunder-close-c/download.wav",
+        "download": "https://soundbible.com/grab.php?id=2005&type=wav",
+        "sha256": "250fde3c92d188d6b3f6674f092d4fc8860a9c5888013191ef5cd3ce4bbf676c",
+        "licenseEvidence": "https://soundbible.com/2005-Elaborate-Thunder.html",
+        "downloadDate": "2026-10-27"
+      }
+    ],
+    "start": 0,
+    "duration": 54,
+    "overlap": 2,
+    "edits": "Selected 0–54 s of the source WAV; retains distinct clap groups around source seconds 5, 28, 38 and 41; low-energy 2 s overlap avoids the attacks and their main decays; RMS matched",
+    "gainDb": 0,
+    "montage": false,
+    "editors": [
+      "Firehawk Focus"
+    ],
+    "peakKneeRMS": 6
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "symbol": "cloud.bolt.rain",
+    "category": "rain",
+    "sources": [
+      {
+        "title": "2 Minute Storm",
+        "creator": "Mike Koenig",
+        "url": "https://soundbible.com/1908-2-Minute-Storm.html",
+        "license": "CC-BY-3.0",
+        "raw": "soundbible/storm-full/download.wav",
+        "download": "https://soundbible.com/grab.php?id=1908&type=wav",
+        "sha256": "8a4d2bf22073434017c74add90d8231202583baf68df2d6818d60864fe7747b0",
+        "licenseEvidence": "https://soundbible.com/1908-2-Minute-Storm.html",
+        "downloadDate": "2026-10-27"
+      },
+      {
+        "title": "wind",
+        "creator": "felix.blume",
+        "url": "https://freesound.org/people/felix.blume/sounds/217506/",
+        "license": "CC0-1.0",
+        "raw": "blankie/wind/download.m4a",
+        "download": "https://raw.githubusercontent.com/codybrom/blankie/a106b8de559344fe3e6dff0a626e5a21a74a344e/Blankie/Resources/Sounds/wind.m4a",
+        "sha256": "079211ac8198bef84fadb81a71bda445fdd522677e6eb3150a7eecadbd0cf68a",
+        "licenseEvidence": "https://github.com/codybrom/blankie/blob/a106b8de559344fe3e6dff0a626e5a21a74a344e/Blankie/Resources/sounds.json",
+        "downloadDate": "2026-10-26"
+      }
+    ],
+    "start": 0,
+    "duration": 60,
+    "overlap": 2,
+    "edits": "Composite: source seconds 20–80 of 2 Minute Storm plus 140–200 of the pinned wind derivative; wind RMS is 8 dB below storm RMS before mixing; 2 s equal-power overlap; RMS matched",
+    "gainDb": 0,
+    "montage": true,
+    "editors": [
+      "Porrumentzio",
+      "Blankie",
+      "Firehawk Focus"
+    ],
+    "peakKneeRMS": 5
+  },
+  {
+    "id": "clock",
+    "name": "Clock",
+    "symbol": "clock",
+    "category": "indoor",
+    "sources": [
+      {
+        "title": "Ticking Clock",
+        "creator": "KevanGC",
+        "url": "https://soundbible.com/1580-Ticking-Clock.html",
+        "license": "Public Domain",
+        "raw": "soundbible/clock/download.wav",
+        "download": "https://soundbible.com/grab.php?id=1580&type=wav",
+        "sha256": "a75588a56290247cac0905abb09ebc810f4eaa3ee16a9990d47e81d883cd1ed6",
+        "licenseEvidence": "https://soundbible.com/1580-Ticking-Clock.html",
+        "downloadDate": "2026-10-26"
+      }
+    ],
+    "start": 0,
+    "duration": 50,
+    "overlap": 0,
+    "edits": "Edited event sequence: one clean recorded tick from the same public-domain source as Fast clock, retained for 180 ms and repeated 50 times on an exact 44,100-frame grid; 4 ms event-edge fades; exact 1.000 s spacing including the loop seam; no pitch or time stretching; RMS matched",
+    "gainDb": 0,
+    "montage": true,
+    "editors": [
+      "Firehawk Focus"
+    ],
+    "peakKneeRMS": 3
+  }
+]

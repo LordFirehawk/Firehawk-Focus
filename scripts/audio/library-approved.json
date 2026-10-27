@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cafe",
+    "name": "Café",
+    "symbol": "cup.and.saucer",
+    "category": "indoor",
+    "freesoundID": 263584,
+    "gainDb": 0,
+    "source": {
+      "title": "Small Restaurant atmosphere",
+      "creator": "Berwitz",
+      "url": "https://freesound.org/people/Berwitz/sounds/263584/",
+      "license": "CC0-1.0",
+      "sha256": "7eb38f5a19d7a0526687dd5f24f595c11d0061b4fe110d5f774c74d99a0dd028",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 62.0,
+    "duration": 60,
+    "overlap": 2,
+    "peakKneeRMS": 6,
+    "edits": "Selected 62–122 s of the soft café murmur; 2 s equal-power tail/head overlap; RMS matched. Overlap regions stay near median bed level and avoid the strongest dish/glass peaks",
+    "selectionEvidence": "User-approved soft café murmur after listening to previews. Offline 100 ms envelope search ranks start 62 s with a 2 s overlap as the lowest-energy join among 60 s candidates"
+  },
+  {
+    "id": "bullfrogs",
+    "name": "Croaky frogs",
+    "symbol": "leaf",
+    "category": "nature",
+    "freesoundID": 58236,
+    "gainDb": -4.0,
+    "source": {
+      "title": "MerlothPark_crickets2",
+      "creator": "reinsamba",
+      "url": "https://freesound.org/people/reinsamba/sounds/58236/",
+      "license": "CC-BY-4.0",
+      "sha256": "dd2fc68faec32c2cc08993a4fb8df06905cb13cd11ac06b45cf0e6d61f5a683b",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 100.0,
+    "duration": 58,
+    "overlap": 0.5,
+    "peakKneeRMS": 4,
+    "edits": "Selected 100–158 s of the Marloth Park night field recording; 0.5 s equal-power tail/head overlap away from croak attacks; smooth peak reduction; RMS matched. Catalog gainDb −4.0 deliberately softens playback a few dB below the library match, like Campfire",
+    "selectionEvidence": "User-approved replacement for rejected madamdata 750818: soft croaky character. Overlap regions sit below median 100 ms RMS. Recording is from Marloth Park, South Africa"
+  },
+  {
+    "id": "night-frogs",
+    "name": "Night frogs",
+    "symbol": "leaf",
+    "category": "nature",
+    "freesoundID": 462889,
+    "gainDb": 0,
+    "source": {
+      "title": "Frogs croaking & crickets at night in jungle swamp Africa",
+      "creator": "mycompasstv",
+      "url": "https://freesound.org/people/mycompasstv/sounds/462889/",
+      "license": "CC0-1.0",
+      "sha256": "23e308364a427e5bb5f7072647ffde91c15bff69f9dc2ddfe8334814cd869505",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 0.5,
+    "duration": 45.5,
+    "overlap": 0.5,
+    "peakKneeRMS": 4,
+    "edits": "Selected 0.5–46.0 s of the Freesound original (MP3 upload); 0.5 s equal-power tail/head overlap; smooth peak reduction; RMS matched. Near-full-length selection because the original is only about 46 s",
+    "selectionEvidence": "User-approved night frog bed. Start 0.5 s with a half-second overlap keeps both join regions quieter than the full-recording median RMS"
+  }
+]

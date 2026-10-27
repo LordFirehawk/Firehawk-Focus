@@ -1,0 +1,112 @@
+[
+  {
+    "id": "rain-light",
+    "name": "Light rain",
+    "symbol": "cloud.rain",
+    "category": "rain",
+    "freesoundID": 167034,
+    "source": {
+      "title": "Light Rain",
+      "creator": "soundrecorder7",
+      "url": "https://freesound.org/people/soundrecorder7/sounds/167034/",
+      "license": "CC0-1.0",
+      "sha256": "33429154b0bed03045b911bb3fbd2408f3c38e5d0e13105c7736a44e9657db61",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 0,
+    "duration": 26.319795918367348,
+    "overlap": 2,
+    "repetitions": 2,
+    "peakKneeRMS": 6,
+    "edits": "Selected the full 26.319796 s original; 2 s equal-power tail/head overlap; RMS matched; repeated the resulting 24.319796 s loop exactly twice to deliver 48.639592 s. The natural recurrence remains 24.319796 s",
+    "selectionEvidence": "User-selected favourite; creator explicitly describes only rain, without thunder or background noise. Repetition is disclosed because the original is shorter than the preferred loop length"
+  },
+  {
+    "id": "fire-crackling",
+    "name": "Crackling fire",
+    "symbol": "flame",
+    "category": "fire",
+    "freesoundID": 263864,
+    "source": {
+      "title": "fire_crackling.wav",
+      "creator": "ceich93",
+      "url": "https://freesound.org/people/ceich93/sounds/263864/",
+      "license": "CC0-1.0",
+      "sha256": "4e1be30593c00f9d67b58bd948ace38d884ead0cd08dcd8039a58a1e3bf68fcb",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 0.8,
+    "duration": 58,
+    "overlap": 2,
+    "repetitions": 1,
+    "peakKneeRMS": 4,
+    "edits": "Selected 0.8–58.8 s of the lossless original; 2 s equal-power tail/head overlap; RMS matched",
+    "selectionEvidence": "User-selected favourite; original recorded at an indoor fireplace. Offline Apple SoundAnalysis identifies fire or fire_crackle as the leading class throughout the recording; compressed-preview artifacts are avoided by using the original"
+  },
+  {
+    "id": "fountain",
+    "name": "Fountain",
+    "symbol": "water.waves",
+    "category": "water",
+    "freesoundID": 169254,
+    "source": {
+      "title": "Fountain_2.wav",
+      "creator": "skyko",
+      "url": "https://freesound.org/people/skyko/sounds/169254/",
+      "license": "CC0-1.0",
+      "sha256": "4c74fce4e86993b2bf0aa5622791a4c2a04de6df9e68ca11c5f31edb02b87ec4",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 0.4,
+    "duration": 60,
+    "overlap": 2,
+    "peakKneeRMS": 4,
+    "preview": "freesound-preview-fountain.mp3",
+    "edits": "Selected 0.4–60.4 s of the small-fountain original; 2 s equal-power tail/head overlap; RMS matched",
+    "selectionEvidence": "Creator explicitly identifies a small fountain; the full original supports a nearly full-length selection, avoiding the extreme ends"
+  },
+  {
+    "id": "bullfrogs",
+    "name": "Croaky frogs",
+    "symbol": "leaf",
+    "category": "nature",
+    "freesoundID": 750818,
+    "source": {
+      "title": "Frogs at Sungei Buloh 2",
+      "creator": "madamdata",
+      "url": "https://freesound.org/people/madamdata/sounds/750818/",
+      "license": "CC0-1.0",
+      "sha256": "c3c9a2bd7bd0c84ca2e92c84d150bce75a0cc47aec2b9bb7345cf3ba694ec2bc",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 44.6,
+    "duration": 60,
+    "overlap": 0.5,
+    "peakKneeRMS": 4,
+    "preview": "freesound-preview-frogs.mp3",
+    "edits": "Selected 44.6–104.6 s; 0.5 s equal-power tail/head overlap; smooth peak reduction; RMS matched",
+    "selectionEvidence": "100 ms envelope search places both half-second overlap regions below 0.854 times the full-recording median RMS, avoiding the stronger call attacks at the join. The 59.5 s output preserves a varied sequence of calls; peak reduction softens standout transients. Species identification remains the creator's uncertain inference; no bullfrog species guarantee or human seam approval is claimed"
+  },
+  {
+    "id": "washing-machine",
+    "name": "Washing machine",
+    "symbol": "washer",
+    "category": "indoor",
+    "freesoundID": 125307,
+    "source": {
+      "title": "washer-agitate-close.aif",
+      "creator": "alienistcog",
+      "url": "https://freesound.org/people/alienistcog/sounds/125307/",
+      "license": "CC0-1.0",
+      "sha256": "b393fcc1077c6b3da7026f559ffe7e0421eb13107b1f98a6609e3bae59061cde",
+      "downloadDate": "2026-10-27"
+    },
+    "start": 126,
+    "duration": 56,
+    "overlap": 2,
+    "peakKneeRMS": 3,
+    "preview": "freesound-preview-washing-machine.mp3",
+    "edits": "Selected 126–182 s after the microphone-position change and before the clipped ending; 2 s equal-power tail/head overlap; smooth peak reduction at 3 times RMS; RMS matched",
+    "selectionEvidence": "Selected window has no full-scale samples and a 3.05 dB P95–P05 span of 100 ms RMS. The raw crest factor is 22.80 dB, so isolated peaks require reduction. Offline classification leads with engine in all 19 overlapping three-second windows; no beep, knock, door_slam or thump_thud label appears among its top eight classes. This supports a steady agitation bed, but does not replace listening approval"
+  }
+]

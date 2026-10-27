@@ -1,0 +1,158 @@
+[
+  {
+    "id": "rain-tent",
+    "name": "Rain on a tent",
+    "symbol": "cloud.rain",
+    "category": "rain",
+    "sources": [
+      {
+        "raw": "wikimedia/rain-tent/download.mp3",
+        "source": "https://commons.wikimedia.org/wiki/File:Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg",
+        "creator": "luc de bruijn",
+        "license": "CC-BY-3.0",
+        "licenseEvidence": "https://commons.wikimedia.org/w/index.php?title=File:Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg&oldid=1112127290",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg/Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg.mp3",
+        "downloadDate": "2026-10-26",
+        "sha256": "855a04fd38dc6ca29c966f5c35c7a3d721f944e5f70fac50630e579d78197277"
+      }
+    ],
+    "start": 21,
+    "duration": 54,
+    "overlap": 2,
+    "edits": "Selected 21–75 s of the Wikimedia MP3 transcode; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched and peaks reduced",
+    "montage": false,
+    "credit": "luc de bruijn; https://commons.wikimedia.org/wiki/File:Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Selected 21–75 s of the Wikimedia MP3 transcode; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched and peaks reduced by Firehawk Focus"
+  },
+  {
+    "id": "cabin-hum",
+    "name": "Cabin hum",
+    "symbol": "airplane",
+    "category": "travel",
+    "sources": [
+      {
+        "raw": "blankie/cabin-hum/download.m4a",
+        "source": "https://freesound.org/s/133496/",
+        "creator": "ikbenraar; redistributed by Blankie",
+        "license": "CC0-1.0",
+        "licenseEvidence": "https://github.com/codybrom/blankie/blob/a106b8de559344fe3e6dff0a626e5a21a74a344e/Blankie/Resources/sounds.json",
+        "download": "https://raw.githubusercontent.com/codybrom/blankie/a106b8de559344fe3e6dff0a626e5a21a74a344e/Blankie/Resources/Sounds/airplane.m4a",
+        "downloadDate": "2026-10-26",
+        "sha256": "fc45c24b558bf84526c576eae29e5d853e7db60420070a26766f1bb251dda253"
+      }
+    ],
+    "start": 1,
+    "duration": 52,
+    "overlap": 2,
+    "edits": "Selected 1–53 s of the pinned Blankie AAC derivative; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched",
+    "montage": false,
+    "credit": "ikbenraar; redistributed by Blankie; https://freesound.org/s/133496/; CC0-1.0; Selected 1–53 s of the pinned Blankie AAC derivative; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched by Firehawk Focus"
+  },
+  {
+    "id": "wind-chimes",
+    "name": "Wind chimes",
+    "symbol": "bell",
+    "category": "nature",
+    "sources": [
+      {
+        "raw": "wikimedia/chimes/download.mp3",
+        "source": "https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg",
+        "creator": "Membeth",
+        "license": "CC0-1.0",
+        "licenseEvidence": "https://commons.wikimedia.org/w/index.php?title=File:Windglockenspiel.Koshi.ogg&oldid=524448266",
+        "download": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Windglockenspiel.Koshi.ogg/Windglockenspiel.Koshi.ogg.mp3",
+        "downloadDate": "2026-10-26",
+        "sha256": "1b0faf9d2aa0ea3f088d5e09319ce94593fbb914def06cda20c6c0953dbe6a2e"
+      }
+    ],
+    "start": 1,
+    "duration": 54,
+    "overlap": 2,
+    "edits": "Selected 1–55 s of the Wikimedia MP3 transcode; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched and peaks reduced",
+    "montage": false,
+    "credit": "Membeth; https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg; CC0-1.0; Selected 1–55 s of the Wikimedia MP3 transcode; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched and peaks reduced by Firehawk Focus"
+  },
+  {
+    "id": "clock-ticking",
+    "name": "Clock ticking",
+    "symbol": "clock",
+    "category": "indoor",
+    "sources": [
+      {
+        "raw": "soundbible/clock/download.wav",
+        "source": "https://soundbible.com/1580-Ticking-Clock.html",
+        "creator": "KevanGC",
+        "license": "Public Domain",
+        "licenseEvidence": "https://soundbible.com/1580-Ticking-Clock.html",
+        "download": "https://soundbible.com/grab.php?id=1580&type=wav",
+        "downloadDate": "2026-10-26",
+        "sha256": "a75588a56290247cac0905abb09ebc810f4eaa3ee16a9990d47e81d883cd1ed6"
+      }
+    ],
+    "start": 0,
+    "duration": 51.2,
+    "overlap": 0,
+    "edits": "Retained 70 distinct recorded ticks; arranged 160 alternating ticks on an exact 14,112-frame grid, every 0.32 s; 4 ms event-edge fades; silent seam; RMS matched",
+    "montage": true,
+    "credit": "KevanGC; https://soundbible.com/1580-Ticking-Clock.html; Public Domain; Retained 70 distinct recorded ticks; arranged 160 alternating ticks on an exact 14,112-frame grid, every 0.32 s; 4 ms event-edge fades; silent seam; RMS matched by Firehawk Focus"
+  },
+  {
+    "id": "typing-pages",
+    "name": "Typing and turning pages",
+    "symbol": "keyboard",
+    "category": "indoor",
+    "sources": [
+      {
+        "raw": "opengameart/typing/download.zip",
+        "source": "https://opengameart.org/content/keyboard-soundpack-1-typing-and-single-keystrokes",
+        "creator": "unicaegames",
+        "license": "CC0-1.0",
+        "licenseEvidence": "https://opengameart.org/content/keyboard-soundpack-1-typing-and-single-keystrokes",
+        "download": "https://opengameart.org/sites/default/files/unicae_games_keyboard_soundpack_1_0.zip",
+        "downloadDate": "2026-10-26",
+        "sha256": "935eae2fa5c3742eacdd38c4ea0e9047f3887faa0701996498492c256db1b351"
+      },
+      {
+        "raw": "soundbible/page-turn/download.wav",
+        "source": "https://soundbible.com/2066-Page-Turn.html",
+        "creator": "Mark DiAngelo",
+        "license": "CC-BY-3.0",
+        "licenseEvidence": "https://soundbible.com/2066-Page-Turn.html",
+        "download": "https://soundbible.com/grab.php?id=2066&type=wav",
+        "downloadDate": "2026-10-26",
+        "sha256": "9676a5f072133ce512952a3ceccf5a1cc07671e093ef80be863d2bbd5d3c1478"
+      }
+    ],
+    "start": 0,
+    "duration": 52,
+    "overlap": 0,
+    "edits": "Combined human typing takes 001–005 with pauses and three quiet Page Turn events in a 52 s montage; no generated keyboard takes; 4 ms event-edge fades; silent seam; peaks reduced with a 3× RMS tanh knee and RMS matched",
+    "montage": true,
+    "credit": "unicaegames; https://opengameart.org/content/keyboard-soundpack-1-typing-and-single-keystrokes; CC0-1.0; Mark DiAngelo; https://soundbible.com/2066-Page-Turn.html; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Combined human typing takes 001–005 with pauses and three quiet Page Turn events in a 52 s montage; no generated keyboard takes; 4 ms event-edge fades; silent seam; peaks reduced with a 3× RMS tanh knee and RMS matched by Firehawk Focus",
+    "peakKneeRMS": 3
+  },
+  {
+    "id": "winter-walk",
+    "name": "Walking through snow",
+    "symbol": "snowflake",
+    "category": "nature",
+    "sources": [
+      {
+        "raw": "opengameart/winter/download.7z",
+        "source": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
+        "creator": "Corsica_S; extracted by Iwan Gabovitch with explicit CC0 permission",
+        "license": "CC0-1.0",
+        "licenseEvidence": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
+        "download": "https://opengameart.org/sites/default/files/corsica_s-walking_in_snow.7z",
+        "downloadDate": "2026-10-26",
+        "sha256": "206306b51f8eeedf82043d6628174ec8ff9b16230dffb5192a5c74688e62abd4"
+      }
+    ],
+    "start": 0,
+    "duration": 51.2,
+    "overlap": 0,
+    "edits": "Arranged 18 snow-covered-gravel footstep variations in a deterministic permutation into 64 evenly spaced footsteps at 0.8 s intervals; 4 ms event-edge fades; silent seam; peaks reduced with a 3× RMS tanh knee and RMS matched",
+    "montage": true,
+    "credit": "Corsica_S; extracted by Iwan Gabovitch with explicit CC0 permission; https://opengameart.org/content/42-snow-and-gravel-footsteps; CC0-1.0; Arranged 18 snow-covered-gravel footstep variations in a deterministic permutation into 64 evenly spaced footsteps at 0.8 s intervals; 4 ms event-edge fades; silent seam; peaks reduced with a 3× RMS tanh knee and RMS matched by Firehawk Focus",
+    "peakKneeRMS": 3
+  }
+]

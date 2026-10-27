@@ -1,0 +1,848 @@
+[
+  {
+    "id": "wind",
+    "name": "Wind",
+    "symbolName": "wind",
+    "category": "nature",
+    "file": "wind.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "felix.blume; edited by Porrumentzio / Blankie",
+    "sourceURL": "https://freesound.org/people/felix.blume/sounds/217506/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Wind",
+        "creator": "felix.blume",
+        "url": "https://freesound.org/people/felix.blume/sounds/217506/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Porrumentzio",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "forest",
+    "name": "Pine branches",
+    "symbolName": "tree",
+    "category": "nature",
+    "file": "forest.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "sinewave1kHz; redistributed by Blankie",
+    "sourceURL": "https://freesound.org/people/sinewave1kHz/sounds/202989/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Pine branches",
+        "creator": "sinewave1kHz",
+        "url": "https://freesound.org/people/sinewave1kHz/sounds/202989/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "birds",
+    "name": "Woodland birds",
+    "symbolName": "bird",
+    "category": "nature",
+    "file": "birds.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "kvgarlic; edited by Porrumentzio / Blankie",
+    "sourceURL": "https://freesound.org/people/kvgarlic/sounds/156826/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Woodland birds",
+        "creator": "kvgarlic",
+        "url": "https://freesound.org/people/kvgarlic/sounds/156826/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Porrumentzio",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "fan",
+    "name": "Fan",
+    "symbolName": "fan",
+    "category": "indoor",
+    "file": "fan.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "LilMati; redistributed by Blankie",
+    "sourceURL": "https://freesound.org/people/LilMati/sounds/515859/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Fan",
+        "creator": "LilMati",
+        "url": "https://freesound.org/people/LilMati/sounds/515859/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "night-insects",
+    "name": "Night crickets",
+    "symbolName": "moon.stars",
+    "category": "nature",
+    "file": "night-insects.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "Lisa Redfern; redistributed by Blanket / Blankie",
+    "sourceURL": "https://soundbible.com/2083-Crickets-Chirping-At-Night.html",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Night crickets",
+        "creator": "Lisa Redfern",
+        "url": "https://soundbible.com/2083-Crickets-Chirping-At-Night.html",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Blanket",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "stream",
+    "name": "Woodland stream",
+    "symbolName": "drop",
+    "category": "water",
+    "file": "stream.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "gluckose; redistributed by Blanket / Blankie",
+    "sourceURL": "https://freesound.org/people/gluckose/sounds/333987/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Woodland stream",
+        "creator": "gluckose",
+        "url": "https://freesound.org/people/gluckose/sounds/333987/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Blanket",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "rain",
+    "name": "Gentle rain",
+    "symbolName": "cloud.rain",
+    "category": "rain",
+    "file": "rain.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "rain ambience by alex36917, CC BY 4.0 https://creativecommons.org/licenses/by/4.0/; source https://freesound.org/s/524605/; edited by Porrumentzio / Blankie; trimmed, overlap-looped, RMS-matched by Firehawk Focus",
+    "sourceURL": "https://freesound.org/s/524605/",
+    "license": "CC-BY-4.0",
+    "sources": [
+      {
+        "title": "rain ambience",
+        "creator": "alex36917",
+        "url": "https://freesound.org/s/524605/",
+        "license": "CC-BY-4.0"
+      }
+    ],
+    "editors": [
+      "Porrumentzio",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "fireplace",
+    "name": "Fireplace",
+    "symbolName": "flame",
+    "category": "fire",
+    "file": "fireplace.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 22,
+    "credit": "ezwa",
+    "sourceURL": "https://soundbible.com/1543-Fireplace.html",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Fireplace",
+        "creator": "ezwa",
+        "url": "https://soundbible.com/1543-Fireplace.html",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "thunder",
+    "name": "Rolling thunder",
+    "symbolName": "cloud.bolt.rain",
+    "category": "rain",
+    "file": "thunder.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "NPS, Natural Sounds and Night Skies Division",
+    "sourceURL": "https://www.nps.gov/media/video/view.htm?id=0643C010-FA65-BB84-75FFE70DD85F8835",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Rolling thunder",
+        "creator": "NPS, Natural Sounds and Night Skies Division",
+        "url": "https://www.nps.gov/media/video/view.htm?id=0643C010-FA65-BB84-75FFE70DD85F8835",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "dawn-chorus",
+    "name": "Yellowstone dawn",
+    "symbolName": "sun.horizon",
+    "category": "nature",
+    "file": "dawn-chorus.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 38,
+    "credit": "NPS/Jennifer Jerrett",
+    "sourceURL": "https://www.nps.gov/media/video/view.htm?id=BEA6A752-BCEB-421B-8123-39917AA6223E",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Yellowstone dawn",
+        "creator": "NPS/Jennifer Jerrett",
+        "url": "https://www.nps.gov/media/video/view.htm?id=BEA6A752-BCEB-421B-8123-39917AA6223E",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "tree-frogs",
+    "name": "Everglades tree frogs",
+    "symbolName": "leaf",
+    "category": "nature",
+    "file": "tree-frogs.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 8,
+    "credit": "NPS / Theresa Thom",
+    "sourceURL": "https://www.nps.gov/media/video/view.htm?id=8EB67639-55FE-4B2B-9A2C-D779BAAB0C73",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Everglades tree frogs",
+        "creator": "NPS / Theresa Thom",
+        "url": "https://www.nps.gov/media/video/view.htm?id=8EB67639-55FE-4B2B-9A2C-D779BAAB0C73",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "train",
+    "name": "Train on tracks",
+    "symbolName": "tram.fill",
+    "category": "travel",
+    "file": "train.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 58,
+    "credit": "Ural-66",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D1%83%D0%BA_%D0%BA%D0%BE%D0%BB%D1%91%D1%81_%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%B0.ogg",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Train on tracks",
+        "creator": "Ural-66",
+        "url": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%82%D1%83%D0%BA_%D0%BA%D0%BE%D0%BB%D1%91%D1%81_%D0%BF%D0%BE%D0%B5%D0%B7%D0%B4%D0%B0.ogg",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "beach-waves",
+    "name": "Calm beach waves",
+    "symbolName": "water.waves",
+    "category": "water",
+    "file": "beach-waves.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 58,
+    "credit": "oceanwavescrushing.wav by Luftrum, CC BY 4.0 https://creativecommons.org/licenses/by/4.0/; source https://freesound.org/s/48412/; edited by Porrumentzio / Blankie; trimmed, overlap-looped, RMS-matched and peaks reduced by Firehawk Focus",
+    "sourceURL": "https://freesound.org/s/48412/",
+    "license": "CC-BY-4.0",
+    "sources": [
+      {
+        "title": "oceanwavescrushing.wav",
+        "creator": "Luftrum",
+        "url": "https://freesound.org/s/48412/",
+        "license": "CC-BY-4.0"
+      }
+    ],
+    "editors": [
+      "Porrumentzio",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "seagulls",
+    "name": "Seagulls",
+    "symbolName": "bird",
+    "category": "nature",
+    "file": "seagulls.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 59,
+    "credit": "H. Lentfer / NPS",
+    "sourceURL": "https://www.nps.gov/media/video/view.htm?id=F5650E68-1DD8-B71C-07CF2F535745CB8E",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Seagulls",
+        "creator": "H. Lentfer / NPS",
+        "url": "https://www.nps.gov/media/video/view.htm?id=F5650E68-1DD8-B71C-07CF2F535745CB8E",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "rain-tent",
+    "name": "Rain on a tent",
+    "symbolName": "cloud.rain",
+    "category": "rain",
+    "file": "rain-tent.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 52,
+    "credit": "luc de bruijn; https://commons.wikimedia.org/wiki/File:Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Selected 21–75 s of the Wikimedia MP3 transcode; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched and peaks reduced by Firehawk Focus",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg",
+    "license": "CC-BY-3.0",
+    "sources": [
+      {
+        "title": "Rain on a tent",
+        "creator": "luc de bruijn",
+        "url": "https://commons.wikimedia.org/wiki/File:Regen_in_de_tent_-_SoundCloud_-_luc_de_bruijn.ogg",
+        "license": "CC-BY-3.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "cabin-hum",
+    "name": "Cabin hum",
+    "symbolName": "airplane",
+    "category": "travel",
+    "file": "cabin-hum.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 50,
+    "credit": "ikbenraar; redistributed by Blankie; https://freesound.org/s/133496/; CC0-1.0; Selected 1–53 s of the pinned Blankie AAC derivative; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched by Firehawk Focus",
+    "sourceURL": "https://freesound.org/s/133496/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Cabin hum",
+        "creator": "ikbenraar",
+        "url": "https://freesound.org/s/133496/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "wind-chimes",
+    "name": "Wind chimes",
+    "symbolName": "bell",
+    "category": "nature",
+    "file": "wind-chimes.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 52,
+    "credit": "Membeth; https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg; CC0-1.0; Selected 1–55 s of the Wikimedia MP3 transcode; stereo 44.1 kHz PCM16; 2 s equal-power overlap; RMS matched and peaks reduced by Firehawk Focus",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Wind chimes",
+        "creator": "Membeth",
+        "url": "https://commons.wikimedia.org/wiki/File:Windglockenspiel.Koshi.ogg",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "clock-ticking",
+    "name": "Fast clock",
+    "symbolName": "clock",
+    "category": "indoor",
+    "file": "clock-ticking.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 51.2,
+    "credit": "KevanGC; https://soundbible.com/1580-Ticking-Clock.html; Public Domain; Retained 70 distinct recorded ticks; arranged 160 alternating ticks on an exact 14,112-frame grid, every 0.32 s; 4 ms event-edge fades; silent seam; RMS matched by Firehawk Focus",
+    "sourceURL": "https://soundbible.com/1580-Ticking-Clock.html",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Clock ticking",
+        "creator": "KevanGC",
+        "url": "https://soundbible.com/1580-Ticking-Clock.html",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "typing-pages",
+    "name": "Typing and turning pages",
+    "symbolName": "keyboard",
+    "category": "indoor",
+    "file": "typing-pages.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 52,
+    "credit": "unicaegames; https://opengameart.org/content/keyboard-soundpack-1-typing-and-single-keystrokes; CC0-1.0; Mark DiAngelo; https://soundbible.com/2066-Page-Turn.html; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Combined human typing takes 001–005 with pauses and three quiet Page Turn events in a 52 s montage; no generated keyboard takes; 4 ms event-edge fades; silent seam; peaks reduced with a 3× RMS tanh knee and RMS matched by Firehawk Focus",
+    "sourceURL": "https://opengameart.org/content/keyboard-soundpack-1-typing-and-single-keystrokes",
+    "license": "CC-BY-3.0",
+    "sources": [
+      {
+        "title": "Keyboard Soundpack 1 - Typing and Single Keystrokes",
+        "creator": "unicaegames",
+        "url": "https://opengameart.org/content/keyboard-soundpack-1-typing-and-single-keystrokes",
+        "license": "CC0-1.0"
+      },
+      {
+        "title": "Page Turn",
+        "creator": "Mark DiAngelo",
+        "url": "https://soundbible.com/2066-Page-Turn.html",
+        "license": "CC-BY-3.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "winter-walk",
+    "name": "Walking through snow",
+    "symbolName": "snowflake",
+    "category": "nature",
+    "file": "winter-walk.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 51.2,
+    "credit": "Corsica_S; extracted by Iwan Gabovitch with explicit CC0 permission; https://opengameart.org/content/42-snow-and-gravel-footsteps; CC0-1.0; Arranged 18 snow-covered-gravel footstep variations in a deterministic permutation into 64 evenly spaced footsteps at 0.8 s intervals; 4 ms event-edge fades; silent seam; peaks reduced with a 3× RMS tanh knee and RMS matched by Firehawk Focus",
+    "sourceURL": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Walking through snow",
+        "creator": "Corsica_S",
+        "url": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Iwan Gabovitch",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "campfire",
+    "name": "Campfire",
+    "symbolName": "flame",
+    "category": "fire",
+    "file": "campfire.flac",
+    "gainDb": -4.5,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 56,
+    "credit": "Campfire sound ambience by Glaneur de sons; https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Selected 1–59 s of the Commons MP3 transcode; 2 s equal-power overlap; RMS matched; catalog gainDb -4.5 makes this layer deliberately softer than Fireplace by Firehawk Focus",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg",
+    "license": "CC-BY-3.0",
+    "sources": [
+      {
+        "title": "Campfire sound ambience",
+        "creator": "Glaneur de sons",
+        "url": "https://commons.wikimedia.org/wiki/File:Campfire_sound_ambience.ogg",
+        "license": "CC-BY-3.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "bonfire",
+    "name": "Big fire",
+    "symbolName": "flame.fill",
+    "category": "fire",
+    "file": "bonfire.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 47,
+    "credit": "WWS Bonfireburning by Kimmo Kestinen / Work With Sounds / Werstas; https://commons.wikimedia.org/wiki/File:WWS_Bonfireburning.ogg; CC-BY-4.0 https://creativecommons.org/licenses/by/4.0/; Selected 1–50 s of the Commons MP3 transcode of a real Midsummer bonfire at Lake Näsijärvi; 2 s equal-power overlap; RMS matched by Firehawk Focus",
+    "sourceURL": "https://commons.wikimedia.org/wiki/File:WWS_Bonfireburning.ogg",
+    "license": "CC-BY-4.0",
+    "sources": [
+      {
+        "title": "WWS Bonfireburning",
+        "creator": "Kimmo Kestinen / Work With Sounds / Werstas",
+        "url": "https://commons.wikimedia.org/wiki/File:WWS_Bonfireburning.ogg",
+        "license": "CC-BY-4.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "waterfall",
+    "name": "Waterfall",
+    "symbolName": "water.waves",
+    "category": "water",
+    "file": "waterfall.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 40.5,
+    "credit": "Large Waterfall by Daniel Simion; https://soundbible.com/2201-Large-Waterfall.html; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Selected 1–43.5 s of the source WAV; 2 s equal-power overlap; RMS matched by Firehawk Focus",
+    "sourceURL": "https://soundbible.com/2201-Large-Waterfall.html",
+    "license": "CC-BY-3.0",
+    "sources": [
+      {
+        "title": "Large Waterfall",
+        "creator": "Daniel Simion",
+        "url": "https://soundbible.com/2201-Large-Waterfall.html",
+        "license": "CC-BY-3.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "thunder-close",
+    "name": "Close thunder",
+    "symbolName": "cloud.bolt",
+    "category": "rain",
+    "file": "thunder-close.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 52,
+    "credit": "Elaborate Thunder by Mike Koenig; https://soundbible.com/2005-Elaborate-Thunder.html; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; Selected 0–54 s of the source WAV; retains distinct clap groups around source seconds 5, 28, 38 and 41; low-energy 2 s overlap avoids the attacks and their main decays; RMS matched by Firehawk Focus",
+    "sourceURL": "https://soundbible.com/2005-Elaborate-Thunder.html",
+    "license": "CC-BY-3.0",
+    "sources": [
+      {
+        "title": "Elaborate Thunder",
+        "creator": "Mike Koenig",
+        "url": "https://soundbible.com/2005-Elaborate-Thunder.html",
+        "license": "CC-BY-3.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "thunderstorm",
+    "name": "Thunderstorm",
+    "symbolName": "cloud.bolt.rain",
+    "category": "rain",
+    "file": "thunderstorm.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 58,
+    "credit": "2 Minute Storm by Mike Koenig; https://soundbible.com/1908-2-Minute-Storm.html; CC-BY-3.0 https://creativecommons.org/licenses/by/3.0/; wind by felix.blume; https://freesound.org/people/felix.blume/sounds/217506/; CC0-1.0; Composite: source seconds 20–80 of 2 Minute Storm plus 140–200 of the pinned wind derivative; wind RMS is 8 dB below storm RMS before mixing; 2 s equal-power overlap; RMS matched by Firehawk Focus",
+    "sourceURL": "https://soundbible.com/1908-2-Minute-Storm.html",
+    "license": "CC-BY-3.0",
+    "sources": [
+      {
+        "title": "2 Minute Storm",
+        "creator": "Mike Koenig",
+        "url": "https://soundbible.com/1908-2-Minute-Storm.html",
+        "license": "CC-BY-3.0"
+      },
+      {
+        "title": "wind",
+        "creator": "felix.blume",
+        "url": "https://freesound.org/people/felix.blume/sounds/217506/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Porrumentzio",
+      "Blankie",
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "clock",
+    "name": "Clock",
+    "symbolName": "clock",
+    "category": "indoor",
+    "file": "clock.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 50,
+    "credit": "Ticking Clock by KevanGC; https://soundbible.com/1580-Ticking-Clock.html; Public Domain; Edited event sequence: one clean recorded tick from the same public-domain source as Fast clock, retained for 180 ms and repeated 50 times on an exact 44,100-frame grid; 4 ms event-edge fades; exact 1.000 s spacing including the loop seam; no pitch or time stretching; RMS matched by Firehawk Focus",
+    "sourceURL": "https://soundbible.com/1580-Ticking-Clock.html",
+    "license": "Public Domain",
+    "sources": [
+      {
+        "title": "Ticking Clock",
+        "creator": "KevanGC",
+        "url": "https://soundbible.com/1580-Ticking-Clock.html",
+        "license": "Public Domain"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "rain-light",
+    "name": "Light rain",
+    "symbolName": "cloud.rain",
+    "category": "rain",
+    "file": "rain-light.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 48.639591836734695,
+    "credit": "Light Rain by soundrecorder7; https://freesound.org/people/soundrecorder7/sounds/167034/; CC0-1.0; Selected the full 26.319796 s original; 2 s equal-power tail/head overlap; RMS matched; repeated the resulting 24.319796 s loop exactly twice to deliver 48.639592 s. The natural recurrence remains 24.319796 s by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/soundrecorder7/sounds/167034/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Light Rain",
+        "creator": "soundrecorder7",
+        "url": "https://freesound.org/people/soundrecorder7/sounds/167034/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "fire-crackling",
+    "name": "Crackling fire",
+    "symbolName": "flame",
+    "category": "fire",
+    "file": "fire-crackling.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 56.0,
+    "credit": "fire_crackling.wav by ceich93; https://freesound.org/people/ceich93/sounds/263864/; CC0-1.0; Selected 0.8–58.8 s of the lossless original; 2 s equal-power tail/head overlap; RMS matched by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/ceich93/sounds/263864/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "fire_crackling.wav",
+        "creator": "ceich93",
+        "url": "https://freesound.org/people/ceich93/sounds/263864/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "fountain",
+    "name": "Fountain",
+    "symbolName": "water.waves",
+    "category": "water",
+    "file": "fountain.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 58.0,
+    "credit": "Fountain_2.wav by skyko; https://freesound.org/people/skyko/sounds/169254/; CC0-1.0; Selected 0.4–60.4 s of the small-fountain original; 2 s equal-power tail/head overlap; RMS matched by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/skyko/sounds/169254/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Fountain_2.wav",
+        "creator": "skyko",
+        "url": "https://freesound.org/people/skyko/sounds/169254/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "washing-machine",
+    "name": "Washing machine",
+    "symbolName": "washer",
+    "category": "indoor",
+    "file": "washing-machine.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 54.0,
+    "credit": "washer-agitate-close.aif by alienistcog; https://freesound.org/people/alienistcog/sounds/125307/; CC0-1.0; Selected 126–182 s after the microphone-position change and before the clipped ending; 2 s equal-power tail/head overlap; smooth peak reduction at 3 times RMS; RMS matched by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/alienistcog/sounds/125307/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "washer-agitate-close.aif",
+        "creator": "alienistcog",
+        "url": "https://freesound.org/people/alienistcog/sounds/125307/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "cafeteria",
+    "name": "Cafeteria",
+    "symbolName": "fork.knife",
+    "category": "indoor",
+    "file": "cafeteria.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 234,
+    "credit": "Cafe Ambience by bittermelonheart; https://freesound.org/people/bittermelonheart/sounds/732984/; CC0-1.0; 936–1176 s selection, 6 s equal-power overlap, RMS matching with standard peak reduction, FLAC delivery by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/bittermelonheart/sounds/732984/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Cafe Ambience",
+        "creator": "bittermelonheart",
+        "url": "https://freesound.org/people/bittermelonheart/sounds/732984/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "cafe",
+    "name": "Café",
+    "symbolName": "cup.and.saucer",
+    "category": "indoor",
+    "file": "cafe.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 58.0,
+    "credit": "Small Restaurant atmosphere by Berwitz; https://freesound.org/people/Berwitz/sounds/263584/; CC0-1.0; Selected 62–122 s of the soft café murmur; 2 s equal-power tail/head overlap; RMS matched. Overlap regions stay near median bed level and avoid the strongest dish/glass peaks by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/Berwitz/sounds/263584/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Small Restaurant atmosphere",
+        "creator": "Berwitz",
+        "url": "https://freesound.org/people/Berwitz/sounds/263584/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "bullfrogs",
+    "name": "Croaky frogs",
+    "symbolName": "leaf",
+    "category": "nature",
+    "file": "bullfrogs.flac",
+    "gainDb": -4.0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 57.5,
+    "credit": "MerlothPark_crickets2 by reinsamba; https://freesound.org/people/reinsamba/sounds/58236/; CC-BY-4.0; Selected 100–158 s of the Marloth Park night field recording; 0.5 s equal-power tail/head overlap away from croak attacks; smooth peak reduction; RMS matched. Catalog gainDb −4.0 deliberately softens playback a few dB below the library match, like Campfire by Firehawk Focus; https://creativecommons.org/licenses/by/4.0/",
+    "sourceURL": "https://freesound.org/people/reinsamba/sounds/58236/",
+    "license": "CC-BY-4.0",
+    "sources": [
+      {
+        "title": "MerlothPark_crickets2",
+        "creator": "reinsamba",
+        "url": "https://freesound.org/people/reinsamba/sounds/58236/",
+        "license": "CC-BY-4.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  },
+  {
+    "id": "night-frogs",
+    "name": "Night frogs",
+    "symbolName": "leaf",
+    "category": "nature",
+    "file": "night-frogs.flac",
+    "gainDb": 0,
+    "loopStartSeconds": 0,
+    "loopEndSeconds": 45.0,
+    "credit": "Frogs croaking & crickets at night in jungle swamp Africa by mycompasstv; https://freesound.org/people/mycompasstv/sounds/462889/; CC0-1.0; Selected 0.5–46.0 s of the Freesound original (MP3 upload); 0.5 s equal-power tail/head overlap; smooth peak reduction; RMS matched. Near-full-length selection because the original is only about 46 s by Firehawk Focus",
+    "sourceURL": "https://freesound.org/people/mycompasstv/sounds/462889/",
+    "license": "CC0-1.0",
+    "sources": [
+      {
+        "title": "Frogs croaking & crickets at night in jungle swamp Africa",
+        "creator": "mycompasstv",
+        "url": "https://freesound.org/people/mycompasstv/sounds/462889/",
+        "license": "CC0-1.0"
+      }
+    ],
+    "editors": [
+      "Firehawk Focus"
+    ]
+  }
+]

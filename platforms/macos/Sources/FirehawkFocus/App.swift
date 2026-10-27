@@ -46,6 +46,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private var cancellables = Set<AnyCancellable>()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        _ = SoundsController.shared
         setupStatusItem()
         setupPopover()
         observeEngine()
@@ -58,6 +59,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.15) { [weak self] in
             self?.showTray()
         }
+    }
+
+    func applicationWillTerminate(_ notification: Notification) {
+        SoundsController.shared.shutdown()
     }
 
     func applicationDidBecomeActive(_ notification: Notification) {

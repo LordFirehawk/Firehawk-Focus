@@ -8,18 +8,21 @@ let package = Package(
         .executable(name: "FirehawkFocus", targets: ["FirehawkFocus"]),
     ],
     targets: [
+        .target(name: "FirehawkDSP"),
         .executableTarget(
             name: "FirehawkFocus",
+            dependencies: ["FirehawkDSP"],
             path: "Sources/FirehawkFocus",
             resources: [
                 .copy("Resources/FocusModel.js"),
                 .copy("Resources/Sounds"),
+                .copy("Resources/Ambience"),
                 .copy("Resources/AppIcon.icns")
             ]
         ),
         .testTarget(
             name: "FirehawkFocusTests",
-            dependencies: ["FirehawkFocus"],
+            dependencies: ["FirehawkFocus", "FirehawkDSP"],
             path: "Tests/FirehawkFocusTests"
         ),
     ]

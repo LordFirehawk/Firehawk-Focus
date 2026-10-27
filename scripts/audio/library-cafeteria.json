@@ -1,0 +1,19 @@
+{
+  "id": "cafeteria",
+  "name": "Cafeteria",
+  "freesoundID": 732984,
+  "start": 936,
+  "duration": 240,
+  "overlap": 6,
+  "peakKneeRMS": 6,
+  "symbol": "fork.knife",
+  "format": "flac",
+  "source": {
+    "title": "Cafe Ambience",
+    "creator": "bittermelonheart",
+    "url": "https://freesound.org/people/bittermelonheart/sounds/732984/",
+    "license": "CC0-1.0"
+  },
+  "sha256": "374e375e1ad7740dd8e15efafea8fbbeebc96a274bccf56286e58bdd4b44279d",
+  "delivery": "flac"
+}
