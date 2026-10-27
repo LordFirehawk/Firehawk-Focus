@@ -38,22 +38,8 @@ struct MainPopoverView: View {
                 .padding(2.5)
                 .background(Color.white.opacity(0.08))
                 .clipShape(Capsule())
-
-                // Close Button
-                if let onClose = onClose {
-                    Button(action: onClose) {
-                        Image(systemName: "xmark")
-                            .font(.system(size: 10, weight: .bold))
-                            .foregroundStyle(.secondary)
-                            .frame(width: 24, height: 24)
-                            .background(Color.white.opacity(0.07))
-                            .clipShape(Circle())
-                    }
-                    .buttonStyle(.plain)
-                    .help("Close")
-                }
             }
-            .padding(.horizontal, 11)
+            .padding(.horizontal, 14)
             .padding(.top, 14)
             .padding(.bottom, 12)
 
@@ -76,8 +62,6 @@ struct MainPopoverView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .frame(width: 360, height: 490)
-        .background(.ultraThinMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 16))
         .onExitCommand {
             onClose?()
         }

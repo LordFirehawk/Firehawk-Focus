@@ -46,9 +46,23 @@ cd platforms/macos
 ./install.sh
 ```
 
-This compiles the release binary with whole-module optimization, creates `~/Applications/Firehawk Focus.app`, ad-hoc signs it, and launches the app directly into your menu bar.
+This compiles the release binary with whole-module optimization, creates `~/Applications/Firehawk Focus.app`, ad-hoc signs it, installs LaunchAgent `com.lordfirehawk.firehawk-focus`, and launches the app into your menu bar.
 
-### Launch at Login (Optional)
-To launch Firehawk Focus automatically upon user login:
-1. Open **System Settings** > **General** > **Login Items**.
-2. Under "Open at Login", click `+` and select `~/Applications/Firehawk Focus.app`.
+### Launch at Login
+Login startup uses a per-user LaunchAgent only (`com.lordfirehawk.firehawk-focus`). The in-app **Launch at Login** toggle writes or removes that plist. Pass `--no-login` to `install.sh` if you only want to refresh the app bundle.
+
+Older installs that used `org.lordfirehawk.firehawk-focus` or SMAppService Login Items are migrated away on install.
+
+Full rebuilds need **Xcode** (not only Command Line Tools) with an accepted license:
+
+```bash
+sudo xcodebuild -license
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+./platforms/macos/install.sh
+```
+
+If the license is still pending, keep login wired to the existing app:
+
+```bash
+./platforms/macos/install.sh --login-only
+```

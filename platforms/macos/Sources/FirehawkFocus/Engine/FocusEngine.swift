@@ -106,8 +106,7 @@ public final class FocusEngine: ObservableObject {
             Bundle.main.bundlePath + "/Contents/Resources/FocusModel.js",
             FileManager.default.currentDirectoryPath + "/FocusModel.js",
             FileManager.default.currentDirectoryPath + "/../../FocusModel.js",
-            FileManager.default.currentDirectoryPath + "/platforms/macos/Resources/FocusModel.js",
-            "/Users/janscodingapple/Projects/Personal/omarchy-firehawk-focus/FocusModel.js"
+            FileManager.default.currentDirectoryPath + "/platforms/macos/Resources/FocusModel.js"
         ]
 
         for path in candidatePaths {

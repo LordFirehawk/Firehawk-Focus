@@ -37,23 +37,17 @@ struct StatusItemContent: Equatable {
     }
 }
 
-final class TrayPanel: NSPanel {
-    override var canBecomeKey: Bool { true }
-    override var canBecomeMain: Bool { true }
-}
-
 @MainActor
 final class AppDelegate: NSObject, NSApplicationDelegate {
     private let engine = FocusEngine.shared
     private var statusItem: NSStatusItem!
-    private var trayPanel: TrayPanel?
-    private var clickOutsideMonitor: Any?
+    private let popover = NSPopover()
     private var statusItemContent: StatusItemContent?
     private var cancellables = Set<AnyCancellable>()
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupStatusItem()
-        setupTrayPanel()
+        setupPopover()
         observeEngine()
 
         if CommandLine.arguments.contains("--start") {
@@ -85,30 +79,15 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 
-    private func setupTrayPanel() {
-        let panel = TrayPanel(
-            contentRect: NSRect(x: 0, y: 0, width: 360, height: 490),
-            styleMask: [.titled, .closable, .fullSizeContentView, .nonactivatingPanel],
-            backing: .buffered,
-            defer: false
-        )
-        panel.isFloatingPanel = true
-        panel.level = .floating
-        panel.title = "Firehawk Focus"
-        panel.titleVisibility = .hidden
-        panel.titlebarAppearsTransparent = true
-        panel.isMovableByWindowBackground = true
-        panel.isReleasedWhenClosed = false
-        panel.backgroundColor = .clear
-        panel.hasShadow = true
-        panel.animationBehavior = .utilityWindow
-        panel.contentViewController = NSHostingController(
+    private func setupPopover() {
+        popover.behavior = .transient
+        popover.animates = true
+        popover.contentSize = NSSize(width: 360, height: 490)
+        popover.contentViewController = NSHostingController(
             rootView: MainPopoverView(engine: engine, onClose: { [weak self] in
                 self?.closeTray()
             })
         )
-        self.trayPanel = panel
-
         engine.onRequestOpenPanel = { [weak self] in
             self?.showTray()
         }
@@ -163,11 +142,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func toggleTray() {
-        guard let panel = trayPanel else {
-            showTray()
-            return
-        }
-        if panel.isVisible {
+        if popover.isShown {
             closeTray()
         } else {
             showTray()
@@ -175,93 +150,25 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     private func showTray() {
-        guard let panel = trayPanel else { return }
+        guard let button = statusItem?.button else { return }
 
-        if !panel.isVisible {
-            // Lock position in place when opening
-            let targetOrigin = calculateTrayOrigin(panelSize: panel.frame.size)
-            panel.setFrameOrigin(targetOrigin)
-            panel.makeKeyAndOrderFront(nil)
-            NSApp.activate(ignoringOtherApps: true)
-            startClickOutsideMonitor()
-        } else {
-            panel.makeKeyAndOrderFront(nil)
+        if popover.isShown {
+            popover.contentViewController?.view.window?.makeKey()
+            return
         }
+
+        NSApp.activate(ignoringOtherApps: true)
+        popover.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
+        popover.contentViewController?.view.window?.makeKey()
     }
 
     private func closeTray() {
-        stopClickOutsideMonitor()
-        trayPanel?.orderOut(nil)
-    }
-
-    private func calculateTrayOrigin(panelSize: NSSize) -> NSPoint {
-        let panelWidth = panelSize.width
-        let panelHeight = panelSize.height
-
-        guard let button = statusItem?.button,
-              let buttonWindow = button.window,
-              let screen = buttonWindow.screen ?? NSScreen.main else {
-            let screen = NSScreen.main
-            let visible = screen?.visibleFrame ?? NSRect(x: 0, y: 0, width: 1512, height: 982)
-            return NSPoint(
-                x: max(visible.origin.x + 12, visible.maxX - panelWidth - 16),
-                y: max(visible.origin.y + 12, visible.maxY - panelHeight - 6)
-            )
-        }
-
-        let visibleFrame = screen.visibleFrame
-        let screenFrame = screen.frame
-        let buttonBounds = button.bounds
-        let buttonScreenRect = buttonWindow.convertToScreen(buttonBounds)
-
-        // Check if button is actually on screen and visible
-        let isOffscreen = buttonScreenRect.origin.x < (screenFrame.origin.x - 10) ||
-                          buttonScreenRect.origin.x > (screenFrame.maxX - 10)
-
-        if isOffscreen {
-            return NSPoint(
-                x: max(visibleFrame.origin.x + 12, visibleFrame.maxX - panelWidth - 16),
-                y: max(visibleFrame.origin.y + 12, visibleFrame.maxY - panelHeight - 6)
-            )
-        }
-
-        // Center tray horizontally under the status item button
-        var x = buttonScreenRect.midX - (panelWidth / 2.0)
-        x = max(visibleFrame.origin.x + 10, min(x, visibleFrame.maxX - panelWidth - 10))
-
-        // Position directly below menu bar
-        let y = visibleFrame.maxY - panelHeight - 4
-
-        return NSPoint(x: x, y: y)
-    }
-
-    private func startClickOutsideMonitor() {
-        stopClickOutsideMonitor()
-        clickOutsideMonitor = NSEvent.addGlobalMonitorForEvents(matching: [.leftMouseDown, .rightMouseDown]) { [weak self] _ in
-            guard let self = self, let panel = self.trayPanel, panel.isVisible else { return }
-            let mouseLocation = NSEvent.mouseLocation
-            // If click is inside the panel, ignore
-            if panel.frame.contains(mouseLocation) {
-                return
-            }
-            // If click is on the status item button, let button target/action handle toggle
-            if let button = self.statusItem?.button,
-               let buttonWin = button.window,
-               buttonWin.frame.contains(mouseLocation) {
-                return
-            }
-            self.closeTray()
-        }
-    }
-
-    private func stopClickOutsideMonitor() {
-        if let monitor = clickOutsideMonitor {
-            NSEvent.removeMonitor(monitor)
-            clickOutsideMonitor = nil
-        }
+        guard popover.isShown else { return }
+        popover.performClose(nil)
     }
 
     private func showContextMenu(_ sender: NSStatusBarButton) {
+        closeTray()
         let menu = NSMenu()
 
         // Primary Action

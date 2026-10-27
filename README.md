@@ -2,7 +2,7 @@
 
 Firehawk Focus is a cross-platform Pomodoro & Focus block tracker designed for deep work. It runs seamlessly on both **Omarchy Linux** (QML / Wayland bar plugin) and **macOS** (native Swift / SwiftUI menu bar application).
 
-Both editions share the exact same battle-tested core state machine ([`FocusModel.js`](file:///Users/janscodingapple/Projects/Personal/omarchy-firehawk-focus/FocusModel.js)), ensuring identical timer mechanics, 4-cycle long break logic, and local data persistence.
+Both editions share the exact same battle-tested core state machine ([`FocusModel.js`](FocusModel.js)), ensuring identical timer mechanics, 4-cycle long break logic, and local data persistence.
 
 ---
 
