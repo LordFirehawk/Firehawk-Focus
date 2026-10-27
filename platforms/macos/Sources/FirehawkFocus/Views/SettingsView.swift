@@ -4,8 +4,24 @@ import SwiftUI
 struct SettingsView: View {
     @ObservedObject var engine: FocusEngine
     @ObservedObject private var launchHelper = LaunchAtLoginHelper.shared
+    @State private var showsSoundCredits = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
+        if showsSoundCredits {
+            SoundCreditsView(catalog: SoundsController.shared.catalog) { setShowsSoundCredits(false) }
+                .transition(reduceMotion ? .opacity : .move(edge: .trailing))
+        } else {
+            settingsList
+                .transition(reduceMotion ? .opacity : .move(edge: .leading))
+        }
+    }
+
+    private func setShowsSoundCredits(_ value: Bool) {
+        withAnimation(reduceMotion ? .easeInOut(duration: 0.15) : .snappy(duration: 0.25)) { showsSoundCredits = value }
+    }
+
+    private var settingsList: some View {
         ScrollView {
             VStack(spacing: 16) {
                 // Section: Intervals
@@ -231,6 +247,8 @@ struct SettingsView: View {
 
                 // Section: About & Quit
                 VStack(spacing: 8) {
+                    SoundCreditsSettingsRow { setShowsSoundCredits(true) }
+
                     HStack(spacing: 12) {
                         Image(nsImage: NSApplication.shared.applicationIconImage)
                             .resizable()
@@ -271,5 +289,35 @@ struct SettingsView: View {
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
         }
+    }
+}
+
+/// Settings entry for the Sounds credits screen, styled like the other Settings cards.
+struct SoundCreditsSettingsRow: View {
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            HStack(spacing: 10) {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Sound credits")
+                        .font(.caption.bold())
+                        .foregroundStyle(.primary)
+                    Text("Who recorded the ambient sounds, and their licences")
+                        .font(.caption2)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 10, weight: .bold))
+                    .foregroundStyle(.secondary)
+            }
+            .padding(14)
+            .background(Color.secondary.opacity(0.08))
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityHint("Opens the list of sound creators and licences")
     }
 }
